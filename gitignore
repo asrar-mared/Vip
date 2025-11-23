@@ -1,0 +1,568 @@
+# ☢️ NUCLEAR DOME - MAXIMUM SECURITY .gitignore ☢️
+# 
+# 🛡️ مستوى الأمان: نووي | Security Level: Nuclear
+# 🚨 لا تمرر إلا المسموح به | Only Allowed Files Pass
+# 🔐 كل شيء آخر ممنوع | Everything Else is BLOCKED
+#
+# Created by: Nike 49424 (nike49424.eth) - Digital Warrior
+# License: Enhanced MIT (VIP Edition)
+# Last Update: November 2024
+#
+# ⚠️ تحذير: هذا الملف يحمي مشروعك من التسريبات!
+# ⚠️ Warning: This file protects your project from leaks!
+
+# ═══════════════════════════════════════════════════════════
+# 🔴 المستوى 1: أسرار حرجة | LEVEL 1: CRITICAL SECRETS
+# ═══════════════════════════════════════════════════════════
+
+# 🔑 مفاتيح API وأسرار
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+*.asc
+*.gpg
+
+# 🔐 بيانات اعتماد
+credentials.json
+credentials.yml
+credentials.yaml
+credentials.txt
+auth.json
+auth.yml
+secrets.json
+secrets.yml
+secret.txt
+password.txt
+passwords.txt
+.htpasswd
+
+# 🎫 Tokens
+token.txt
+tokens.txt
+*.token
+access_token
+refresh_token
+jwt.txt
+bearer.txt
+
+# 📧 بيانات البريد الإلكتروني
+email_config.json
+smtp_config.json
+mail_secrets.yml
+
+# 💳 بيانات الدفع
+payment_keys.json
+stripe_keys.json
+paypal_config.json
+
+# ═══════════════════════════════════════════════════════════
+# 🟠 المستوى 2: ملفات البيئة | LEVEL 2: ENVIRONMENT FILES
+# ═══════════════════════════════════════════════════════════
+
+# 🌍 ملفات .env (كلها!)
+.env
+.env.*
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+.env.backup
+.env.old
+.env.save
+.env.example.local
+
+# ⚙️ ملفات الإعدادات الحساسة
+config.local.json
+config.local.yml
+config.secret.json
+config.secret.yml
+settings.local.json
+settings.secret.json
+
+# 🔧 إعدادات محلية
+local.json
+local.yml
+local.config.js
+local.settings.json
+
+# ═══════════════════════════════════════════════════════════
+# 🟡 المستوى 3: قواعد البيانات | LEVEL 3: DATABASES
+# ═══════════════════════════════════════════════════════════
+
+# 💾 ملفات قواعد البيانات
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.bak
+*.backup
+
+# 📊 نسخ احتياطية
+backup/
+backups/
+db_backup/
+database_backup/
+*.sql.gz
+*.sql.zip
+
+# 🗄️ MongoDB
+mongod.log
+mongodb.log
+
+# 🐘 PostgreSQL
+postgres.log
+postgresql.log
+
+# 🐬 MySQL
+mysql.log
+*.mysql
+
+# ═══════════════════════════════════════════════════════════
+# 🟢 المستوى 4: سجلات وملفات مؤقتة | LEVEL 4: LOGS & TEMP
+# ═══════════════════════════════════════════════════════════
+
+# 📝 ملفات السجلات
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# 🗑️ ملفات مؤقتة
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🔄 ملفات الكاش
+.cache/
+*.cache
+.npm/
+.yarn/
+.pnp.*
+.yarn-integrity
+
+# ═══════════════════════════════════════════════════════════
+# 🔵 المستوى 5: مجلدات Node.js | LEVEL 5: NODE.JS FOLDERS
+# ═══════════════════════════════════════════════════════════
+
+# 📦 Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json.bak
+
+# 📚 Bower
+bower_components/
+
+# 🎯 TypeScript
+*.tsbuildinfo
+.tsbuildinfo
+
+# 🔨 Build folders
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+
+# ═══════════════════════════════════════════════════════════
+# 🟣 المستوى 6: IDE & Editors | LEVEL 6: IDE & EDITORS
+# ═══════════════════════════════════════════════════════════
+
+# 💻 VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.code-workspace
+.history/
+
+# 💡 JetBrains (WebStorm, PyCharm, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# 🎨 Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# 📝 Vim
+*.swp
+*.swo
+*~
+
+# 🔧 Emacs
+*~
+\#*\#
+.\#*
+
+# 🍎 macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# 🪟 Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 🐧 Linux
+*~
+.directory
+.Trash-*
+
+# ═══════════════════════════════════════════════════════════
+# 🟤 المستوى 7: تبعيات اللغات | LEVEL 7: LANGUAGE DEPS
+# ═══════════════════════════════════════════════════════════
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.pytype/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ☕ Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+.classpath
+.project
+.settings/
+
+# 💎 Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/tmp/
+/.bundle/
+/vendor/bundle/
+.rvmrc
+
+# 🎯 Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+go.work
+
+# 🦀 Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# 🔷 .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.pdb
+
+# 📱 Mobile (React Native, Flutter)
+*.jks
+*.keystore
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+*.mobileprovision
+*.xcuserstate
+Pods/
+.gradle/
+
+# ═══════════════════════════════════════════════════════════
+# ⚫ المستوى 8: ملفات الاختبار | LEVEL 8: TEST FILES
+# ═══════════════════════════════════════════════════════════
+
+# 🧪 Coverage reports
+coverage/
+*.lcov
+.nyc_output/
+lib-cov/
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+
+# 🎯 Test artifacts
+test-results/
+test_results/
+junit.xml
+*.test.js.snap
+
+# ═══════════════════════════════════════════════════════════
+# ⚪ المستوى 9: ملفات خاصة | LEVEL 9: PRIVATE FILES
+# ═══════════════════════════════════════════════════════════
+
+# 🔒 ملفات شخصية
+personal/
+private/
+confidential/
+sensitive/
+secrets/
+.secrets/
+
+# 📄 مستندات حساسة
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.pdf.private
+resume.pdf
+cv.pdf
+id_*.pdf
+
+# 📸 صور حساسة
+selfie.*
+passport.*
+id_card.*
+license.*
+
+# 💰 معلومات مالية
+bank_*.json
+invoice_*.pdf
+receipt_*.pdf
+tax_*.pdf
+
+# ═══════════════════════════════════════════════════════════
+# 🔴 المستوى 10: Docker & Cloud | LEVEL 10: DOCKER & CLOUD
+# ═══════════════════════════════════════════════════════════
+
+# 🐳 Docker
+docker-compose.override.yml
+docker-compose.local.yml
+.dockerignore.local
+*.dockerfile.local
+
+# ☁️ AWS
+.aws/
+aws-credentials.json
+.elasticbeanstalk/
+
+# 🔵 Azure
+.azure/
+azure-credentials.json
+
+# 🟢 Google Cloud
+.gcloud/
+gcloud-credentials.json
+service-account.json
+
+# 🟣 Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+*.tfvars.json
+
+# 🟡 Kubernetes
+kubeconfig
+*.kubeconfig
+kube-config.yml
+
+# ═══════════════════════════════════════════════════════════
+# 🟠 المستوى 11: أدوات الأمان | LEVEL 11: SECURITY TOOLS
+# ═══════════════════════════════════════════════════════════
+
+# 🛡️ أدوات المسح الأمني
+.snyk
+.synk-report.json
+security-report.json
+vulnerability-report.json
+
+# 🔍 Audit logs
+audit.log
+audit-*.log
+security.log
+security-*.log
+
+# 🚨 Incident reports
+incident-*.json
+breach-*.json
+attack-*.log
+
+# ═══════════════════════════════════════════════════════════
+# 🟢 المستوى 12: ملفات متنوعة | LEVEL 12: MISCELLANEOUS
+# ═══════════════════════════════════════════════════════════
+
+# 📦 Package managers
+yarn.lock
+pnpm-lock.yaml
+composer.lock
+Gemfile.lock
+poetry.lock
+
+# 🔄 Version control
+.git/
+.svn/
+.hg/
+.bzr/
+
+# 📊 Analytics
+analytics/
+.analytics/
+tracking/
+
+# 🎬 Media files (large)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.iso
+
+# 📱 Mobile specific
+*.apk
+*.ipa
+*.aab
+*.app
+
+# ═══════════════════════════════════════════════════════════
+# ⚠️ استثناءات مهمة | IMPORTANT EXCEPTIONS
+# ═══════════════════════════════════════════════════════════
+
+# ✅ نسمح بأمثلة الإعدادات (بدون أسرار)
+!.env.example
+!config.example.json
+!config.example.yml
+!settings.example.json
+
+# ✅ نسمح بملفات التوثيق
+!README.md
+!CONTRIBUTING.md
+!LICENSE.md
+!CHANGELOG.md
+!CODE_OF_CONDUCT.md
+!SECURITY.md
+
+# ✅ نسمح بـ gitkeep في المجلدات الفارغة
+!.gitkeep
+
+# ✅ نسمح بإعدادات VS Code الأساسية
+!.vscode/extensions.json
+
+# ═══════════════════════════════════════════════════════════
+# 🔴 قواعد خاصة بالمشروع | PROJECT SPECIFIC RULES
+# ═══════════════════════════════════════════════════════════
+
+# 🚀 Nuclear Dome specific
+.nuclear/
+nuclear-secrets/
+dome-config.local.json
+
+# 📦 Assets الكبيرة
+assets/videos/
+assets/large/
+public/uploads/
+
+# 🎨 ملفات التصميم الأصلية
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+
+# ═══════════════════════════════════════════════════════════
+# ⚡ ملاحظات مهمة | IMPORTANT NOTES
+# ═══════════════════════════════════════════════════════════
+#
+# 🛡️ هذا الملف يحمي مشروعك من:
+#    - تسريب الأسرار والمفاتيح
+#    - رفع البيانات الحساسة
+#    - مشاركة معلومات شخصية
+#    - نشر إعدادات محلية
+#
+# ⚠️ تذكر دائماً:
+#    - لا ترفع ملفات .env أبداً!
+#    - استخدم .env.example للنماذج
+#    - راجع ما ترفعه قبل الـ commit
+#    - استخدم git status للتحقق
+#
+# 🔍 للتحقق من الملفات المتجاهلة:
+#    git status --ignored
+#
+# 🚨 إذا رفعت سراً بالخطأ:
+#    1. غيّر السر فوراً
+#    2. استخدم git filter-branch أو BFG
+#    3. أبلغ الفريق
+#
+# 💡 نصائح:
+#    - راجع هذا الملف بانتظام
+#    - حدّثه حسب احتياجات المشروع
+#    - شارك القواعد مع الفريق
+#
+# 📞 للأسئلة والدعم:
+#    nike49424@gmail.com
+#    nike49424.eth
+#
+# ═══════════════════════════════════════════════════════════
+#
+# 🛡️ مستوى الحماية: نووي ☢️
+# 🔐 صُنع بواسطة: Nike 49424 - Digital Warrior
+# 📅 آخر تحديث: نوفمبر 2024
+# 📜 الترخيص: Enhanced MIT (VIP Edition)
+#
+# "الأمان ليس خياراً... إنه ضرورة" 🛡️
+#
+# ═══════════════════════════════════════════════════════════
